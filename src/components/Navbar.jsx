@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="hidden md:flex space-x-6">
         <a href="#" className="hover:text-orange-500">Home</a>
         <a href="#" className="hover:text-orange-500">About</a>
-        <a href="#" className="hover:text-orange-500">Blog</a>
+        <a href="https://t.co/ND2Qj1wBFP" className="hover:text-orange-500">Blog</a>
       </div>
 
       <div className="text-2xl font-bold">
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center space-x-4">
         <a href="#" className="hover:text-orange-500 text-sm">Join Waitlist</a>
         <button className="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-500 transition">
-          Join Community
+          <a href="https://t.co/9TNjNaMuod">Join Community </a>
         </button>
       </div>
 
@@ -40,10 +40,10 @@ const Navbar = () => {
       <div className="md:hidden mt-4 space-y-3">
         <a href="#" className="block text-sm">Home</a>
         <a href="#" className="block text-sm">About</a>
-        <a href="#" className="block text-sm">Features</a>
+        <a href="https://t.co/ND2Qj1wBFP" className="block text-sm">Blog</a>
         <a href="#" className="block text-sm">Join Waitlist</a>
         <button className="w-full bg-white text-black py-2 rounded-md text-sm font-medium">
-          Join Community
+           <a href="https://t.co/9TNjNaMuod">Join Community </a>
         </button>
       </div>
     )}
