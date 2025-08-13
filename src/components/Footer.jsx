@@ -20,14 +20,14 @@ export default function Footer() {
           <a href="#product" className="hover:text-orange-500 transition">
             Product
           </a>
-          <a href="#features" className="hover:text-orange-500 transition">
-            Features
+          <a href="#company" className="hover:text-orange-500 transition">
+            Company
           </a>
-          <a href="#pricing" className="hover:text-orange-500 transition">
-            Pricing
+          <a href="#contact" className="hover:text-orange-500 transition">
+            Contact
           </a>
-          <a href="#terms" className="hover:text-orange-500 transition">
-            Terms & Conditions
+          <a href="internships" className="hover:text-orange-500 transition">
+            Internships
           </a>
         </nav>
 
