@@ -6,25 +6,25 @@ export default function Features() {
       title: "Speed",
       icon: <FaBolt size={24} />,
       description:
-        "Swiftransact is designed to process high-traffic transactions swiftly, ensuring you experience zero delays. Whether you're converting fiat to crypto or making transfers, the platform is optimized to handle large volumes smoothly.",
+      "With Swiftransact, your money doesn’t wait in line. We’ve built a lightning-fast system that gets your transfers from “sent” to “received” in moments. Whether you’re paying a supplier across town or sending funds across borders. No delays. No stress. Just instant movement.",
     },
     {
       title: "Security",
       icon: <FaShieldAlt size={24} />,
       description:
-        "Security is our top priority. With bank-grade encryption, real-time monitoring and multi-layered defense mechanisms, Swift Transact ensures that your funds and personal information are always protected.",
+      "Every transaction on Swiftransact is wrapped in bank-grade encryption and blockchain-backed trust. We don’t just move your money, we guard it. Your data stays private, your funds stay protected, and you stay in control.",
     },
     {
       title: "24/7 Support",
       icon: <FaHeadphones size={24} />,
       description:
-        "Swift Transact offers round-the-clock support to address any questions or technical issues. Whether you need help with a transaction or assistance, our support team is always ready to ensure a smooth experience.",
-    },
+  "We know money moves at all hours and so do we. Our dedicated support team is always here, day or night, to answer questions, fix issues, and make sure you’re never left waiting. No bots. Just real people who care.",    
+},
     {
       title: "Interface",
       icon: <FaThLarge size={24} />,
       description:
-        "Swift Transact is designed to process high-traffic transactions swiftly, ensuring you experience zero delays. Whether you're converting fiat to crypto or making transfers, the platform is optimized to handle large volumes smoothly.",
+      "We’ve stripped away the clutter to give you a clean, intuitive dashboard that’s as easy to use as it is powerful. Send, track, and manage your transactions without the guesswork, so you can focus on what matters most.",
     },
   ];
 

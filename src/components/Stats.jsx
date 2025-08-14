@@ -4,7 +4,7 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 export default function Stats() {
   const stats = [
     {
-      value: "50+",
+      value: "80+",
       label: "Waitlisted Users",
     },
     {

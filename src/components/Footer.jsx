@@ -2,10 +2,9 @@ import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-[#0A0F1C] via-black to-[#1A0D0B] text-white pt-10 pb-6 px-6">
+    <footer className="bg-gradient-to-r from-[#0A0F1C] via-black to-[#1A0D0B] text-white pt-6 pb-6 px-6">
       {/* Top Section */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8 border-b border-zinc-800 pb-6">
-        
         {/* Logo */}
         <div className="flex-shrink-0 flex justify-center md:justify-start">
           <img
@@ -17,18 +16,22 @@ export default function Footer() {
 
         {/* Navigation */}
         <nav className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-8 text-sm font-medium text-center">
-          <a href="#product" className="hover:text-orange-500 transition">
-            Product
-          </a>
-          <a href="#company" className="hover:text-orange-500 transition">
-            Company
-          </a>
-          <a href="#contact" className="hover:text-orange-500 transition">
-            Contact
-          </a>
-          <a href="internships" className="hover:text-orange-500 transition">
-            Internships
-          </a>
+          <div className="flex gap-4">
+            <a href="#product" className="hover:text-orange-500 transition">
+              Product
+            </a>
+            <a href="#company" className="hover:text-orange-500 transition">
+              Company
+            </a>
+          </div>
+          <div className="flex gap-4">
+            <a href="#contact" className="hover:text-orange-500 transition">
+              Contact
+            </a>
+            <a href="internships" className="hover:text-orange-500 transition">
+              Internships
+            </a>
+          </div>
         </nav>
 
         {/* Social Links */}
@@ -62,7 +65,6 @@ export default function Footer() {
 
       {/* Bottom Legal */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 mt-6 gap-3 md:gap-0 text-center">
-        
         {/* Privacy & Terms */}
         <div className="flex gap-4 flex-wrap justify-center">
           <a href="#privacy" className="hover:text-gray-300 transition">
