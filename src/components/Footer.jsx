@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex-shrink-0 flex justify-center md:justify-start">
           <img
-            src="src/assets/foot-logo.png"
+            src="/assets/foot-logo.png"
             alt="Logo"
             className="h-8 md:h-10 object-contain"
           />

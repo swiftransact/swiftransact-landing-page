@@ -22,7 +22,7 @@ const Hero = () => {
           <span className="relative inline-block">
             Finance.
             <div className="absolute bottom-[-1rem] left-[-1.2rem] w-[110%] sm:w-[120%] pointer-events-none">
-              <img src="/src/assets/orange-circle.png" alt="orange-circle" />
+              <img src="/assets/orange-circle.png" alt="orange-circle" />
             </div>
           </span>
         </h1>
