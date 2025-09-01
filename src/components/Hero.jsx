@@ -1,7 +1,7 @@
 import "react";
 import Navbar from "./Navbar";
 import PillButton from "./PillButton";
-import OrangeCirlce from '../assets/orange-circle.png';
+import OrangeCirlce from '/assets/orange-circle.png';
 
 const Hero = () => {
   return (
