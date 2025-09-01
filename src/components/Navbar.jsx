@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import {Menu, X} from 'lucide-react';
+import Logo from '../assets/Logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
 
       <div className="text-2xl font-bold">
         <img
-          src="/assets/Logo.png"
+          src={Logo}
           alt="Logo"
           className="h-6 md:h-7 mx-auto"
         />

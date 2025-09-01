@@ -1,4 +1,5 @@
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import FooterLogo from '../assets/foot-logo.png';
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex-shrink-0 flex justify-center md:justify-start">
           <img
-            src="/assets/foot-logo.png"
+            src={FooterLogo}
             alt="Logo"
             className="h-8 md:h-10 object-contain"
           />

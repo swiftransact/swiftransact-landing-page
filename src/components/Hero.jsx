@@ -1,6 +1,7 @@
 import "react";
 import Navbar from "./Navbar";
 import PillButton from "./PillButton";
+import OrangeCirlce from '../assets/orange-circle.png';
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
           <span className="relative inline-block">
             Finance.
             <div className="absolute bottom-[-1rem] left-[-1.2rem] w-[110%] sm:w-[120%] pointer-events-none">
-              <img src="/assets/orange-circle.png" alt="orange-circle" />
+              <img src={OrangeCirlce} alt="orange-circle" />
             </div>
           </span>
         </h1>
